@@ -1,0 +1,6 @@
+﻿services:
+  dqmot:
+    image: dqmot
+    build:
+      context: .
+      dockerfile: DQMOT/Dockerfile
